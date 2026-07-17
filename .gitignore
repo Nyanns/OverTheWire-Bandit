@@ -1,0 +1,22 @@
+# Sensitive credentials - keep local only
+credentials/
+*.key
+*.pem
+*.pwd
+passwords.txt
+keys/
+
+# System files
+.DS_Store
+.env
+.env.local
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
